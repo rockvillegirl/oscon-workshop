@@ -108,11 +108,11 @@ To https://github.com/rockvillegirl/oscon-workshop.git
    64a0b57..5e85d80  master -> master
 
 
+---- 
+fork vs branch ???
+https://help.github.com/articles/fork-a-repo
 
-
-
-
-
+https://help.github.com/articles/setting-the-default-branch
 
 
 
