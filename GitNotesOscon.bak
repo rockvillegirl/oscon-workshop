@@ -1,0 +1,116 @@
+git diff
+
+git diff -stage -
+
+git log
+
+git log --graph --oneline --decorate
+
+-- alias a string of git commands --- 
+git config --global alias.lol  "log --graph --oneline --decorate --all"
+git lol
+ 	
+
+-- no .bak files
+.gitignore 
+-- which contains
+*.bak
+--- tree --- 
+C:\Users\Sharon Belliveau\oscon>tree .git/refs
+Folder PATH listing
+Volume serial number is 9A0B-8ED3
+C:\USERS\SHARON BELLIVEAU\OSCON\.GIT\REFS
++---heads
++---tags
+--ure--   feat
+C:\Users\Sharon Belliveau\oscon>git branch
+* master
+
+C:\Users\Sharon Belliveau\oscon>git branch feature
+
+C:\Users\Sharon Belliveau\oscon>git add .
+
+C:\Users\Sharon Belliveau\oscon>git commit -m "Marc Anthony"
+[feature 5bea333] Marc Anthony
+ 1 file changed, 2 insertions(+)
+
+C:\Users\Sharon Belliveau\oscon>git lol
+* 5bea333 (HEAD, feature) Marc Anthony
+| * 46b41d5 (master) Beg voice
+|/
+* 62b4c42 more notes from this session
+* 6a3543a notes from this session
+* f2fe728 more lines added
+
+--- delete feature
+git branch -d feature
+git branch -a
+
+-- merge ?
+bea
+git rmeote add origin https://github.com/githubteacher/oscon-workshop.gi
+git push -u origin master
+
+
+-- clone from git hum
+
+
+C:\Users\Sharon Belliveau\oscon>git clone https://github.com/rockvillegirl/oscon
+-workshop.git
+Cloning into 'oscon-workshop'...
+remote: Counting objects: 50, done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 50 (delta 18), reused 50 (delta 18)
+Unpacking objects: 100% (50/50), done.
+
+C:\Users\Sharon Belliveau\oscon>ls
+GitNotesOscon.bak  caesar.bak  oscon
+GitNotesOscon.txt  caesar.txt  oscon-workshop
+
+
+C:\Users\Sharon Belliveau\oscon>git clone https://github.com/rockvillegirl/oscon-workshop.git
+Cloning into 'oscon-workshop'...
+remote: Counting objects: 50, done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 50 (delta 18), reused 50 (delta 18)
+Unpacking objects: 100% (50/50), done.
+
+C:\Users\Sharon Belliveau\oscon>ls
+GitNotesOscon.bak  caesar.bak  oscon
+GitNotesOscon.txt  caesar.txt  oscon-workshop
+
+C:\Users\Sharon Belliveau\oscon>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
